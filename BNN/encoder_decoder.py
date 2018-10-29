@@ -63,7 +63,7 @@ def main():
     n_slidings_decoder = [5, 6, 7, 8, 9]
     batch_sizes = [16, 32]
     learning_rate = 0.005
-    num_epochs = 1000
+    num_epochs = 10
     size_models = [[16], [32], [8, 4], [16, 8]]
     activations = ["tanh", "sigmoid"]
     rate = 5

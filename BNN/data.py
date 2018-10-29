@@ -91,10 +91,10 @@ def saveData(combination, loss_test_act, epoch_i, result_file_path):
     if not os.path.exists(result_file_path):
         columns = ['combination', 'loss', 'epoch']
         df[columns]
-        df.to_csv('result.csv', index=False, columns=columns)
+        df.to_csv('result_encoder_decoder.csv', index=False, columns=columns)
     else:
-        with open('result.csv', 'a') as csv_file:
-            df.to_csv(csv_file, header=False, index=False)
+        with open('result_encoder_decoder.csv', 'a') as csv_file:
+            df.to_csv(csv_file,  mode='a', header=False, index=False)
 
     name = ''
     name += str(combination)
