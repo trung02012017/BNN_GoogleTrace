@@ -59,11 +59,11 @@ def main():
     path = "../Data/google_trace_timeseries/data_resource_usage_5Minutes_6176858948.csv"
     aspects = ["meanCPUUsage", "canonical memory usage"]
     predicted_aspect = "meanCPUUsage"
-    n_slidings_encoder = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-    n_slidings_decoder = [5, 6, 7, 8, 9]
+    n_slidings_encoder = [16, 22, 26, 28]
+    n_slidings_decoder = [2, 4, 6]
     batch_sizes = [16, 32]
     learning_rate = 0.005
-    num_epochs = 1000
+    num_epochs = 500
     size_models = [[16], [32], [8, 4], [16, 8]]
     activations = ["tanh", "sigmoid"]
     rate = 5
