@@ -1,6 +1,8 @@
 import numpy as np
 import data as data
 import tensorflow as tf
+import os
+import shutil
 
 tf.set_random_seed(1)
 np.random.seed(1)
@@ -59,15 +61,19 @@ def main():
     path = "../Data/google_trace_timeseries/data_resource_usage_5Minutes_6176858948.csv"
     aspects = ["meanCPUUsage", "canonical memory usage"]
     predicted_aspect = "meanCPUUsage"
-    n_slidings_encoder = [16, 22, 26, 28]
-    n_slidings_decoder = [2, 4, 6]
-    batch_sizes = [16, 32]
+    # n_slidings_encoder = [16, 22, 26, 28]
+    # n_slidings_decoder = [2, 4, 6]
+    # batch_sizes = [16, 32]
+    # size_models = [[16], [32], [8, 4], [16, 8]]
+    # activations = ["tanh", "sigmoid"]
+    n_slidings_encoder = [32]
+    n_slidings_decoder = [2]
+    batch_sizes = [16]
     learning_rate = 0.005
-    num_epochs = 500
-    size_models = [[16], [32], [8, 4], [16, 8]]
-    activations = ["tanh", "sigmoid"]
+    num_epochs = 1
+    size_models = [[16]]
+    activations = ["tanh"]
     rate = 5
-
     result_file_path = 'result_encoder_decoder.csv'
 
     combinations = []
@@ -108,11 +114,12 @@ def main():
         timestep_encoder = n_sliding_encoder
         timestep_decoder = n_sliding_decoder
         input_dim = len(aspects)
-        X_encoder = tf.placeholder(tf.float32, [None, timestep_encoder, input_dim], name='encoder')
-        X_decoder = tf.placeholder(tf.float32, [None, timestep_decoder, input_dim], name='decoder')
-        y = tf.placeholder(tf.float32, [None, 1])
+        X_encoder = tf.placeholder(tf.float32, [None, timestep_encoder, input_dim], name='X_encoder')
+        X_decoder = tf.placeholder(tf.float32, [None, timestep_decoder, input_dim], name='X_decoder')
+        y = tf.placeholder(tf.float32, [None, 1], name='output')
 
         output, outputs_encoder, outputs_decoder = encoder_decoder(X_encoder, X_decoder, size_model, activation)
+        outputs_encoder = tf.identity(outputs_encoder, name='outputs_encoder')
 
         loss = tf.reduce_mean(tf.squared_difference(output, y))
         optimizer = tf.train.AdamOptimizer(learning_rate).minimize(loss)
@@ -168,7 +175,22 @@ def main():
             loss_test_act = np.mean(np.abs(output_test - y_test_act))
             # print(loss_test_act)
 
-            name = data.saveData(combination, loss_test_act, num_epochs_i, result_file_path)
+            # name = data.saveData(combination, loss_test_act, num_epochs_i, result_file_path)
+
+            outputs_encoder = sess.run(outputs_encoder, feed_dict={X_encoder: x_train_encoder,
+                                                 X_decoder: x_train_decoder,
+                                                 y: y_train})
+            print(outputs_encoder[:, -1, :].shape)
+
+            print('\nSaving...')
+            cwd = os.getcwd()
+            path = os.path.join(cwd, 'model_encoder_decoder')
+            shutil.rmtree(path, ignore_errors=True)
+            saver = tf.train.Saver()
+            saver.save(sess=sess, save_path=path)
+            print("ok")
+
+            sess.close()
 
 
 if __name__ == '__main__':

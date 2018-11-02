@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Trungtq\\Desktop\\Lab_Data_Analysis\\BNN_GoogleTrace\\BNN\\model_encoder_decoder"
+all_model_checkpoint_paths: "C:\\Users\\Trungtq\\Desktop\\Lab_Data_Analysis\\BNN_GoogleTrace\\BNN\\model_encoder_decoder"
