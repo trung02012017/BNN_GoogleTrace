@@ -61,18 +61,18 @@ def main():
     path = "../Data/google_trace_timeseries/data_resource_usage_5Minutes_6176858948.csv"
     aspects = ["meanCPUUsage", "canonical memory usage"]
     predicted_aspect = "meanCPUUsage"
-    # n_slidings_encoder = [16, 22, 26, 28]
-    # n_slidings_decoder = [2, 4, 6]
-    # batch_sizes = [16, 32]
-    # size_models = [[16], [32], [8, 4], [16, 8]]
-    # activations = ["tanh", "sigmoid"]
-    n_slidings_encoder = [32]
-    n_slidings_decoder = [2]
-    batch_sizes = [16]
+    num_epochs = 500
     learning_rate = 0.005
-    num_epochs = 1
-    size_models = [[16]]
-    activations = ["tanh"]
+    n_slidings_encoder = [16, 22, 26, 28]
+    n_slidings_decoder = [2, 4, 6]
+    batch_sizes = [16, 32]
+    size_models = [[16], [32], [8, 4], [16, 8]]
+    activations = ["tanh", "sigmoid"]
+    # n_slidings_encoder = [32]
+    # n_slidings_decoder = [2]
+    # batch_sizes = [16]
+    # size_models = [[16]]
+    # activations = ["tanh"]
     rate = 5
     result_file_path = 'result_encoder_decoder.csv'
 
@@ -182,13 +182,15 @@ def main():
                                                  y: y_train})
             print(outputs_encoder[:, -1, :].shape)
 
-            print('\nSaving...')
+            # print('\nSaving...')
             cwd = os.getcwd()
-            path = os.path.join(cwd, 'model_encoder_decoder')
+            path = 'model/model_encoder_decoder'
+            path += str(combination)
+            path = os.path.join(cwd, path)
             shutil.rmtree(path, ignore_errors=True)
             saver = tf.train.Saver()
             saver.save(sess=sess, save_path=path)
-            print("ok")
+            # print("ok")
 
             sess.close()
 
