@@ -90,7 +90,7 @@ def main():
     path = "../Data/google_trace_timeseries/data_resource_usage_5Minutes_6176858948.csv"
     aspects = ["meanCPUUsage", "canonical memory usage"]
     predicted_aspect = "meanCPUUsage"
-    num_epochs = 1
+    num_epochs = 1000
     learning_rate = 0.005
     n_slidings_encoder = [16, 22, 26, 28]
     n_slidings_decoder = [2, 4, 6]
