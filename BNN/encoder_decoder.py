@@ -8,7 +8,8 @@ tf.set_random_seed(1)
 np.random.seed(1)
 
 
-def encoder_decoder(X_encoder, X_decoder, size_model, activation):
+def encoder_decoder(X_encoder, X_decoder, size_model, activation, input_keep_prob, output_keep_prob, state_keep_prob,
+                    variational_recurrent=True, input_size=2):
 
     with tf.variable_scope('encoder'):
         n_layers = len(size_model)
@@ -17,11 +18,25 @@ def encoder_decoder(X_encoder, X_decoder, size_model, activation):
         if activation == "tanh":
             for i in range(n_layers):
                 cell = tf.nn.rnn_cell.LSTMCell(num_units=size_model[i])
+                cell = tf.nn.rnn_cell.DropoutWrapper(cell,
+                                                     input_keep_prob=input_keep_prob,
+                                                     output_keep_prob=output_keep_prob,
+                                                     state_keep_prob=state_keep_prob,
+                                                     variational_recurrent=variational_recurrent,
+                                                     input_size=input_size,
+                                                     dtype=tf.float32)
                 cells.append(cell)
 
         if activation == "sigmoid":
             for i in range(n_layers):
                 cell = tf.nn.rnn_cell.LSTMCell(num_units=size_model[i], activation=tf.nn.sigmoid)
+                cell = tf.nn.rnn_cell.DropoutWrapper(cell,
+                                                     input_keep_prob=input_keep_prob,
+                                                     output_keep_prob=output_keep_prob,
+                                                     state_keep_prob=state_keep_prob,
+                                                     variational_recurrent=variational_recurrent,
+                                                     input_size=input_size,
+                                                     dtype=tf.float32)
                 cells.append(cell)
 
         cell = tf.nn.rnn_cell.MultiRNNCell(cells, state_is_tuple=True)
@@ -36,11 +51,25 @@ def encoder_decoder(X_encoder, X_decoder, size_model, activation):
         if activation == "tanh":
             for i in range(n_layers):
                 cell = tf.nn.rnn_cell.LSTMCell(num_units=size_model[i])
+                cell = tf.nn.rnn_cell.DropoutWrapper(cell,
+                                                     input_keep_prob=input_keep_prob,
+                                                     output_keep_prob=output_keep_prob,
+                                                     state_keep_prob=state_keep_prob,
+                                                     variational_recurrent=variational_recurrent,
+                                                     input_size=input_size,
+                                                     dtype=tf.float32)
                 cells.append(cell)
 
         if activation == "sigmoid":
             for i in range(n_layers):
                 cell = tf.nn.rnn_cell.LSTMCell(num_units=size_model[i], activation=tf.nn.sigmoid)
+                cell = tf.nn.rnn_cell.DropoutWrapper(cell,
+                                                     input_keep_prob=input_keep_prob,
+                                                     output_keep_prob=output_keep_prob,
+                                                     state_keep_prob=state_keep_prob,
+                                                     variational_recurrent=variational_recurrent,
+                                                     input_size=input_size,
+                                                     dtype=tf.float32)
                 cells.append(cell)
 
         cell = tf.nn.rnn_cell.MultiRNNCell(cells, state_is_tuple=True)
@@ -61,13 +90,16 @@ def main():
     path = "../Data/google_trace_timeseries/data_resource_usage_5Minutes_6176858948.csv"
     aspects = ["meanCPUUsage", "canonical memory usage"]
     predicted_aspect = "meanCPUUsage"
-    num_epochs = 500
+    num_epochs = 1
     learning_rate = 0.005
     n_slidings_encoder = [16, 22, 26, 28]
     n_slidings_decoder = [2, 4, 6]
     batch_sizes = [16, 32]
     size_models = [[16], [32], [8, 4], [16, 8]]
     activations = ["tanh", "sigmoid"]
+    input_keep_probs = [0.95, 0.9]
+    output_keep_probs = [0.9]
+    state_keep_probs  = [0.95, 0.9]
     # n_slidings_encoder = [32]
     # n_slidings_decoder = [2]
     # batch_sizes = [16]
@@ -82,8 +114,14 @@ def main():
             for batch_size in batch_sizes:
                 for size_model in size_models:
                     for activation in activations:
-                        combination_i = [n_sliding_encoder, n_sliding_decoder, batch_size, size_model, activation]
-                        combinations.append(combination_i)
+                        for input_keep_prob in input_keep_probs:
+                            for output_keep_prob in output_keep_probs:
+                                for state_keep_prob in state_keep_probs:
+                                    combination_i = [n_sliding_encoder, n_sliding_decoder,
+                                                     batch_size, size_model, activation,
+                                                     input_keep_prob, output_keep_prob,
+                                                     state_keep_prob]
+                                    combinations.append(combination_i)
 
     for combination in combinations:
 
@@ -94,6 +132,9 @@ def main():
         batch_size = combination[2]
         size_model = combination[3]
         activation = combination[4]
+        input_keep_prob = combination[5]
+        output_keep_prob = combination[6]
+        state_keep_prob = combination[7]
 
         nor_data, amax, amin = data.get_goodletrace_data(path, aspects)
         x_train_encoder, y_train, x_test_encoder, y_test = data.get_data_samples(nor_data, n_sliding_encoder,
@@ -118,7 +159,8 @@ def main():
         X_decoder = tf.placeholder(tf.float32, [None, timestep_decoder, input_dim], name='X_decoder')
         y = tf.placeholder(tf.float32, [None, 1], name='output')
 
-        output, outputs_encoder, outputs_decoder = encoder_decoder(X_encoder, X_decoder, size_model, activation)
+        output, outputs_encoder, outputs_decoder = encoder_decoder(X_encoder, X_decoder, size_model, activation,
+                                                                   input_keep_prob, output_keep_prob, state_keep_prob)
         outputs_encoder = tf.identity(outputs_encoder, name='outputs_encoder')
 
         loss = tf.reduce_mean(tf.squared_difference(output, y))
@@ -175,21 +217,25 @@ def main():
             loss_test_act = np.mean(np.abs(output_test - y_test_act))
             # print(loss_test_act)
 
-            # name = data.saveData(combination, loss_test_act, num_epochs_i, result_file_path)
+            name = data.saveData(combination, loss_test_act, num_epochs_i, result_file_path)
 
             outputs_encoder = sess.run(outputs_encoder, feed_dict={X_encoder: x_train_encoder,
                                                  X_decoder: x_train_decoder,
                                                  y: y_train})
-            print(outputs_encoder[:, -1, :].shape)
+            # print(outputs_encoder[:, -1, :].shape)
+
+
 
             # print('\nSaving...')
             cwd = os.getcwd()
-            path = 'model/model_encoder_decoder'
-            path += str(combination)
-            path = os.path.join(cwd, path)
-            shutil.rmtree(path, ignore_errors=True)
+            saved_path = 'model/model'
+            saved_path += str(combination)
+            saved_path += '.ckpt'
+            saved_path = os.path.join(cwd, saved_path)
+            print(saved_path)
+            shutil.rmtree(saved_path, ignore_errors=True)
             saver = tf.train.Saver()
-            saver.save(sess=sess, save_path=path)
+            saver.save(sess=sess, save_path=saved_path)
             # print("ok")
 
             sess.close()

@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Trungtq\\Desktop\\Lab_Data_Analysis\\BNN_GoogleTrace\\BNN\\../Data/google_trace_timeseries/data_resource_usage_5Minutes_6176858948.csv"
+all_model_checkpoint_paths: "C:\\Users\\Trungtq\\Desktop\\Lab_Data_Analysis\\BNN_GoogleTrace\\BNN\\../Data/google_trace_timeseries/data_resource_usage_5Minutes_6176858948.csv"

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc8cf11-ac43-4f00-8d0f-82b93f060e4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BNN/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BNN/encoder_decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/BNN/encoder_decoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNN/model_encoder_decoder.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNN/model_encoder_decoder.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNN/model_encoder_decoder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BNN/model/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BNN/model/model_encoder_decoder[32, 2, 16, [16], 'tanh'].data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BNN/model/model_encoder_decoder[32, 2, 16, [16], 'tanh'].index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BNN/model/model_encoder_decoder[32, 2, 16, [16], 'tanh'].meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BNN/result_encoder_decoder.csv" beforeDir="false" afterPath="$PROJECT_DIR$/BNN/result_encoder_decoder.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +20,15 @@
     <session id="873167525">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.39" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,12 +45,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1769" />
+          <entry key="py" value="2409" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1769" />
+          <entry key="Python" value="2409" />
         </counts>
       </usages-collector>
     </session>
@@ -56,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BNN/encoder_decoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-546">
-              <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+            <state relative-caret-position="85">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -68,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BNN/data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
-              <caret line="95" column="50" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
+            <state relative-caret-position="517">
+              <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -128,12 +132,6 @@
               <item name="BNN_GoogleTrace" type="b2602c69:ProjectViewProjectNode" />
               <item name="BNN_GoogleTrace" type="462c0819:PsiDirectoryNode" />
               <item name="BNN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BNN_GoogleTrace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BNN_GoogleTrace" type="462c0819:PsiDirectoryNode" />
-              <item name="BNN" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,12 +271,12 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2596726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3276923" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3276923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,26 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BNN/encoder_decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BNN/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="95" column="50" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BNN/example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -332,6 +310,26 @@
           <folding>
             <element signature="e#0#23#0" expanded="true" />
             <marker date="1541039954393" expanded="true" signature="111:112" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BNN/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BNN/encoder_decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
