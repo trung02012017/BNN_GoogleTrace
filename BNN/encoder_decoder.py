@@ -3,6 +3,7 @@ import data as data
 import tensorflow as tf
 import os
 import shutil
+from datetime import datetime
 
 tf.set_random_seed(1)
 np.random.seed(1)
@@ -107,6 +108,7 @@ def main():
     # activations = ["tanh"]
     rate = 5
     result_file_path = 'result_encoder_decoder.csv'
+    loss_file_path = 'loss_encoder_decoder.csv'
 
     combinations = []
     for n_sliding_encoder in n_slidings_encoder:
@@ -169,6 +171,10 @@ def main():
         init_op = tf.global_variables_initializer()
 
         with tf.Session() as sess:
+
+            t = datetime.now().time()
+            start_time = (t.hour * 60 + t.minute) * 60 + t.second
+
             sess.run(init_op)
 
             pre_loss_valid = 100
@@ -217,14 +223,22 @@ def main():
             loss_test_act = np.mean(np.abs(output_test - y_test_act))
             # print(loss_test_act)
 
-            name = data.saveData(combination, loss_test_act, num_epochs_i, result_file_path)
+            t = datetime.now().time()
+            end_time = (t.hour * 60 + t.minute) * 60 + t.second
 
-            outputs_encoder = sess.run(outputs_encoder, feed_dict={X_encoder: x_train_encoder,
-                                                 X_decoder: x_train_decoder,
-                                                 y: y_train})
+            training_encoder_time = (end_time - start_time)
+
+            name = data.saveData(combination, loss_test_act, num_epochs_i, result_file_path, training_encoder_time)
+
+            print(name)
+
+            # outputs_encoder = sess.run(outputs_encoder, feed_dict={X_encoder: x_train_encoder,
+            #                                      X_decoder: x_train_decoder,
+            #                                      y: y_train})
             # print(outputs_encoder[:, -1, :].shape)
 
 
+            # print(time)
 
             # print('\nSaving...')
             cwd = os.getcwd()
@@ -232,7 +246,7 @@ def main():
             saved_path += str(combination)
             saved_path += '.ckpt'
             saved_path = os.path.join(cwd, saved_path)
-            print(saved_path)
+            # print(saved_path)
             shutil.rmtree(saved_path, ignore_errors=True)
             saver = tf.train.Saver()
             saver.save(sess=sess, save_path=saved_path)

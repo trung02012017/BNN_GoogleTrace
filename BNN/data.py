@@ -81,15 +81,17 @@ def getValidationSet(x_train_encoder, x_train_decoder, y_train, n):
 
     return x_train_encoder_new, x_train_decoder_new, y_train_new, x_val_encoder, x_val_decoder, y_val
 
-def saveData(combination, loss_test_act, epoch_i, result_file_path):
+
+def saveData(combination, loss_test_act, epoch_i, result_file_path, training_encoder_time):
     combination_x = [combination]
     result = {'combination': combination_x,
               'loss': loss_test_act,
-              'epoch': epoch_i}
+              'epoch': epoch_i,
+              'training_encoder_time': training_encoder_time}
 
     df = pd.DataFrame(result)
     if not os.path.exists(result_file_path):
-        columns = ['combination', 'loss', 'epoch']
+        columns = ['combination', 'loss', 'epoch', 'training_encoder_time']
         df[columns]
         df.to_csv('result_encoder_decoder.csv', index=False, columns=columns)
     else:
@@ -102,7 +104,8 @@ def saveData(combination, loss_test_act, epoch_i, result_file_path):
     name += str(epoch_i)
     name += ' loss='
     name += str(loss_test_act)
-    name += '.png'
+    name += ' training_encoder_time='
+    name += str(training_encoder_time)
     print(name)
 
     return name
