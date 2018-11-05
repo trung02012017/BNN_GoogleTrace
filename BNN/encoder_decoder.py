@@ -10,7 +10,7 @@ np.random.seed(1)
 
 
 def encoder_decoder(X_encoder, X_decoder, size_model, activation, input_keep_prob, output_keep_prob, state_keep_prob,
-                    variational_recurrent=True, input_size=2):
+                    variational_recurrent=True):
 
     with tf.variable_scope('encoder'):
         n_layers = len(size_model)
@@ -18,6 +18,10 @@ def encoder_decoder(X_encoder, X_decoder, size_model, activation, input_keep_pro
 
         if activation == "tanh":
             for i in range(n_layers):
+                if i == 0:
+                    input_size = X_encoder.shape[2]
+                else:
+                    input_size = size_model[i-1]
                 cell = tf.nn.rnn_cell.LSTMCell(num_units=size_model[i])
                 cell = tf.nn.rnn_cell.DropoutWrapper(cell,
                                                      input_keep_prob=input_keep_prob,
@@ -30,6 +34,10 @@ def encoder_decoder(X_encoder, X_decoder, size_model, activation, input_keep_pro
 
         if activation == "sigmoid":
             for i in range(n_layers):
+                if i == 0:
+                    input_size = X_encoder.shape[2]
+                else:
+                    input_size = size_model[i-1]
                 cell = tf.nn.rnn_cell.LSTMCell(num_units=size_model[i], activation=tf.nn.sigmoid)
                 cell = tf.nn.rnn_cell.DropoutWrapper(cell,
                                                      input_keep_prob=input_keep_prob,
@@ -51,6 +59,10 @@ def encoder_decoder(X_encoder, X_decoder, size_model, activation, input_keep_pro
         cells = []
         if activation == "tanh":
             for i in range(n_layers):
+                if i == 0:
+                    input_size = X_decoder.shape[2]
+                else:
+                    input_size = size_model[i-1]
                 cell = tf.nn.rnn_cell.LSTMCell(num_units=size_model[i])
                 cell = tf.nn.rnn_cell.DropoutWrapper(cell,
                                                      input_keep_prob=input_keep_prob,
@@ -63,6 +75,10 @@ def encoder_decoder(X_encoder, X_decoder, size_model, activation, input_keep_pro
 
         if activation == "sigmoid":
             for i in range(n_layers):
+                if i == 0:
+                    input_size = X_decoder.shape[2]
+                else:
+                    input_size = size_model[i-1]
                 cell = tf.nn.rnn_cell.LSTMCell(num_units=size_model[i], activation=tf.nn.sigmoid)
                 cell = tf.nn.rnn_cell.DropoutWrapper(cell,
                                                      input_keep_prob=input_keep_prob,
@@ -101,11 +117,15 @@ def main():
     input_keep_probs = [0.95, 0.9]
     output_keep_probs = [0.9]
     state_keep_probs  = [0.95, 0.9]
-    # n_slidings_encoder = [32]
+
+    # n_slidings_encoder = [16]
     # n_slidings_decoder = [2]
     # batch_sizes = [16]
-    # size_models = [[16]]
+    # size_models = [[16,4]]
     # activations = ["tanh"]
+    # input_keep_probs = [0.95]
+    # output_keep_probs = [0.9]
+    # state_keep_probs = [0.95]
     rate = 5
     result_file_path = 'result_encoder_decoder.csv'
     loss_file_path = 'loss_encoder_decoder.csv'
