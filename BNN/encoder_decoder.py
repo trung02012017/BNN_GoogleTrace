@@ -8,10 +8,14 @@ from datetime import datetime
 tf.set_random_seed(1)
 np.random.seed(1)
 
+####################################
+#### MODEL ENCODER-DECODER #########
+####################################
 
 def encoder_decoder(X_encoder, X_decoder, size_model, activation, input_keep_prob, output_keep_prob, state_keep_prob,
                     variational_recurrent=True):
 
+    ## ENCODER ##
     with tf.variable_scope('encoder'):
         n_layers = len(size_model)
         cells = []
@@ -54,6 +58,8 @@ def encoder_decoder(X_encoder, X_decoder, size_model, activation, input_keep_pro
             inputs=X_encoder,
             dtype=tf.float32,
         )
+
+    ## DECODER ###
     with tf.variable_scope('decoder'):
         n_layers = len(size_model)
         cells = []
@@ -97,6 +103,7 @@ def encoder_decoder(X_encoder, X_decoder, size_model, activation, input_keep_pro
             initial_state=state_encoder
         )
 
+    # DENSE LAYER #
     output = tf.layers.dense(outputs_decoder[:, -1, :], 1)
 
     return output, outputs_encoder, outputs_decoder
@@ -107,7 +114,7 @@ def main():
     path = "../Data/google_trace_timeseries/data_resource_usage_5Minutes_6176858948.csv"
     aspects = ["meanCPUUsage", "canonical memory usage"]
     predicted_aspect = "meanCPUUsage"
-    num_epochs = 1000
+    num_epochs = 100
     learning_rate = 0.005
     n_slidings_encoder = [16, 22, 26, 28]
     n_slidings_decoder = [2, 4, 6]
@@ -121,7 +128,7 @@ def main():
     # n_slidings_encoder = [16]
     # n_slidings_decoder = [2]
     # batch_sizes = [16]
-    # size_models = [[16,4]]
+    # size_models = [[4, 2]]
     # activations = ["tanh"]
     # input_keep_probs = [0.95]
     # output_keep_probs = [0.9]
@@ -130,6 +137,7 @@ def main():
     result_file_path = 'result_encoder_decoder.csv'
     loss_file_path = 'loss_encoder_decoder.csv'
 
+    ## GET COMBINATIONS ##
     combinations = []
     for n_sliding_encoder in n_slidings_encoder:
         for n_sliding_decoder in n_slidings_decoder:
@@ -157,6 +165,8 @@ def main():
         input_keep_prob = combination[5]
         output_keep_prob = combination[6]
         state_keep_prob = combination[7]
+
+        ### GET DATA : TRAINING SET, TEST SET, VALIDATION SET ###
 
         nor_data, amax, amin = data.get_goodletrace_data(path, aspects)
         x_train_encoder, y_train, x_test_encoder, y_test = data.get_data_samples(nor_data, n_sliding_encoder,
@@ -197,9 +207,12 @@ def main():
 
             sess.run(init_op)
 
+            ## EARLY STOPPING ##
             pre_loss_valid = 100
             x = 0
             early_stopping_val = 5
+
+            ### START TO TRAIN ###
             for i in range(num_epochs):
                 num_epochs_i = i + 1
                 for j in range(num_batches + 1):
@@ -234,6 +247,7 @@ def main():
                     x = 0
                 pre_loss_valid = loss_valid_i
 
+            ### OUTPUT ###
             output_test = sess.run(output, feed_dict={X_encoder: x_test_encoder,
                                                       X_decoder: x_test_decoder,
                                                       y: y_test})
@@ -248,9 +262,10 @@ def main():
 
             training_encoder_time = (end_time - start_time)
 
+            ### SAVE DATA ###
             name = data.saveData(combination, loss_test_act, num_epochs_i, result_file_path, training_encoder_time)
 
-            print(name)
+            # print(name)
 
             # outputs_encoder = sess.run(outputs_encoder, feed_dict={X_encoder: x_train_encoder,
             #                                      X_decoder: x_train_decoder,
@@ -260,6 +275,7 @@ def main():
 
             # print(time)
 
+            ### SAVE MODEL ###
             # print('\nSaving...')
             cwd = os.getcwd()
             saved_path = 'model/model'

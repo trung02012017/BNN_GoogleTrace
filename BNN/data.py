@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import os.path
 
 
+### GET NORMALIZED DATA ###
 def get_goodletrace_data(path, aspects):
     names = ["time_stamp", "numberOfTaskIndex", "numberOfMachineId", "meanCPUUsage", "canonical memory usage",
              "AssignMem", "unmapped_cache_usage", "page_cache_usage", "max_mem_usage", "mean_diskIO_time",
@@ -23,6 +24,7 @@ def get_goodletrace_data(path, aspects):
     return normalized_data, a_max, a_min
 
 
+### TRAINING SET AND TEST SET ###
 def get_data_samples(data, n_slidings, predicted_aspect, rate):
 
     sliding = n_slidings
@@ -58,6 +60,7 @@ def get_data_samples(data, n_slidings, predicted_aspect, rate):
     return x_train, y_train, x_test, y_test
 
 
+### ENCODER INPUT ###
 def get_data_decoder(x_train_encoder, x_test_encoder, n_slidings_decoder):
     n_slidings_encoder = x_train_encoder.shape[1]
     a = n_slidings_encoder - n_slidings_decoder
@@ -66,6 +69,7 @@ def get_data_decoder(x_train_encoder, x_test_encoder, n_slidings_decoder):
     return x_train_decoder, x_test_decoder
 
 
+### VALIDATION SET ###
 def getValidationSet(x_train_encoder, x_train_decoder, y_train, n):
     n_train = x_train_encoder.shape[0]
     n_valid = int(n_train/n)
@@ -82,6 +86,7 @@ def getValidationSet(x_train_encoder, x_train_decoder, y_train, n):
     return x_train_encoder_new, x_train_decoder_new, y_train_new, x_val_encoder, x_val_decoder, y_val
 
 
+### SAVE RESULT ( LOSS, TIME, COMPARE TRAINING AND VALIDATION LOSS ###
 def saveData(combination, loss_test_act, epoch_i, result_file_path, training_encoder_time):
     combination_x = [combination]
     result = {'combination': combination_x,
