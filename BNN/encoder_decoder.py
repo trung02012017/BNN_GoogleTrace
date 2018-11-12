@@ -116,7 +116,7 @@ def main():
     predicted_aspect = "meanCPUUsage"
     num_epochs = 100
     learning_rate = 0.005
-    n_slidings_encoder = [16, 22, 26, 28]
+    n_slidings_encoder = [26, 28]
     n_slidings_decoder = [2, 4, 6]
     batch_sizes = [16, 32]
     size_models = [[16], [32], [8, 4], [16, 8]]

@@ -2,8 +2,774 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc8cf11-ac43-4f00-8d0f-82b93f060e4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BNN/model/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 16, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 2, 32, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 16, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 4, 32, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 16, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[16, 6, 32, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 16, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16, 8], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [16], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [32], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'sigmoid', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'sigmoid', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'tanh', 0.9, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'tanh', 0.9, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'tanh', 0.95, 0.9, 0.95].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/model/model[22, 2, 32, [8, 4], 'tanh', 0.95, 0.9, 0.9].ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BNN/result_encoder_decoder.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNN/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/BNN/data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BNN/encoder_decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/BNN/encoder_decoder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +782,8 @@
     <session id="873167525">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="2" />
@@ -28,7 +794,7 @@
           <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.54" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,8 +826,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BNN/encoder_decoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="-1941">
+              <caret line="118" column="26" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -120,6 +886,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,11 +903,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -272,12 +1038,12 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20163691" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20163691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13076924" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25076923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,8 +1072,8 @@
     <entry file="file://$PROJECT_DIR$/BNN/result_encoder_decoder.csv" />
     <entry file="file://$PROJECT_DIR$/BNN/encoder_decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="-1941">
+          <caret line="118" column="26" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
