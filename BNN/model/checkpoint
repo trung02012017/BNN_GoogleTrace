@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ubuntu/trungtran/BNN_GoogleTrace/BNN/model/model[22, 2, 32, [16, 8], \'sigmoid\', 0.9, 0.9, 0.95].ckpt"
+all_model_checkpoint_paths: "/home/ubuntu/trungtran/BNN_GoogleTrace/BNN/model/model[22, 2, 32, [16, 8], \'sigmoid\', 0.9, 0.9, 0.95].ckpt"
